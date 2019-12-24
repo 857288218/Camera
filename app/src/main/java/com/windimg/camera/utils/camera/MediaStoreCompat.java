@@ -109,7 +109,7 @@ public class MediaStoreCompat {
         intent.putExtra("outputX", 1000);
         intent.putExtra("outputY", 1000);
         intent.putExtra("scale", true);
-
+//        intent.putExtra("circleCrop", true);//圆形裁剪区域
         currentClipFile = createImageFile();
         if (currentClipFile != null) {
             currentClipUri = Uri.fromFile(currentClipFile);
